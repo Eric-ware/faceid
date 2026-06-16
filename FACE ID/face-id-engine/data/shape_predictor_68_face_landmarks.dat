@@ -1,0 +1,1 @@
+This file is a pre-trained model used for facial landmark detection, necessary for the liveness detection functionality. Please ensure you have the actual model file available, as it cannot be generated as text. You can download the model from the dlib model repository or other sources that provide the `shape_predictor_68_face_landmarks.dat` file.
