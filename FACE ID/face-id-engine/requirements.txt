@@ -1,0 +1,9 @@
+opencv-python
+face_recognition
+numpy
+cryptography
+dlib
+logging
+json
+pickle
+pytest

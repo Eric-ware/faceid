@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "face-id-engine"
+version = "0.1.0"
+description = "A Face ID authentication engine with liveness detection and encryption."
+authors = ["Eric <your_email@example.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/yourusername/face-id-engine"
+repository = "https://github.com/yourusername/face-id-engine"
+keywords = ["face recognition", "authentication", "liveness detection", "encryption"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+opencv-python = "^4.5.3"
+face_recognition = "^1.3.0"
+cryptography = "^3.4.7"
+dlib = "^19.22.0"
+numpy = "^1.21.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

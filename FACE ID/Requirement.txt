@@ -1,0 +1,26 @@
+# ──────────────────────────────────────────────────────────────
+#  Face ID System — Python Dependencies
+#  Authenticated Identity: Eric
+# ──────────────────────────────────────────────────────────────
+
+# Core face detection & recognition
+face_recognition>=1.3.0       # dlib-based face encoding
+opencv-python>=4.8.0          # Webcam capture & frame rendering
+numpy>=1.24.0                 # Numerical ops on face encodings
+
+# Encryption (AES-256)
+cryptography>=41.0.0          # Fernet + PBKDF2 key derivation
+
+# Web API
+flask>=3.0.0                  # REST API server
+flask-cors>=4.0.0             # Cross-origin support for web client
+
+# Embedded (Raspberry Pi only — install separately on RPi)
+# RPi.GPIO>=0.7.1             # GPIO control (RPi only)
+
+# Optional: enhanced liveness
+# dlib>=19.24.0               # Already pulled by face_recognition
+# imutils>=0.5.4              # EAR helper utilities
+
+# Dev / testing
+pytest>=7.4.0
